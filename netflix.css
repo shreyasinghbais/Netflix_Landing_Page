@@ -1,0 +1,131 @@
+*{
+    color: #fff;
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    background: url(images/bg1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+nav img{
+    width: 20%;
+    margin-top: -15px;
+}
+nav .btn{
+    display: flex;
+    margin-top: 20px;
+}
+.btn .eng{
+    width: 150px;
+    height: 75px;
+    margin-inline: 22px;
+    background-color: #000;
+    color: white;
+    font-size: 19px;
+    border: 2px solid #fff;
+    border-radius: 5%;
+}
+.btn .eng:hover{
+    background: transparent;
+}
+.btn .sign{
+    width: 140px;
+    height: 75px;
+    background-color: #ff0000;
+    color: white;
+    font-size: 19px;
+    border: none;
+    border-radius: 5%;
+    margin: 0 10px;
+}
+.btn .sign:hover{
+    background: transparent;
+    border: 3px solid #ff0000;
+}
+.main{
+    background: url(images/bg1.jpg);
+    background-size: 1800px 900px;
+    background-repeat: no-repeat;
+    text-align: center;
+    min-height: 800px;
+}
+.main h1{
+    font-size: 100px;
+    padding: 40px;
+}
+.main h3{
+    font-size: 80px;
+    padding-top: 0%;
+    padding-bottom: 20px;
+}
+.main p{
+    font-size: 55px;
+    padding: 10px;
+}
+.input{
+    justify-content: center;
+    padding: 60px;
+}
+.input input{
+    width: 500px;
+    height: 80px;
+    border: none;
+    font-size: 25px;
+}
+.input button{
+    width: 250px;
+    height: 80px;
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+}
+.section{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 100px;
+    border-top: 5px solid gray;
+}
+.section h1{
+    font-size: 80px;
+}
+.section p{
+    font-size: 45px;
+}
+.section img{
+    width: 45%;
+}
+.buttons{
+    background: #000;
+    border-top: 5px solid gray;
+}
+.buttons h1{
+    text-align: center;
+    font-size: 75px;
+    padding: 35px 0;
+}
+.buttons button{
+    width: 700px;
+    height: 70px;
+    font-size: 35px;
+    background: #534f4f;
+    color: #fff;
+    margin-left:30%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding: 20px;
+}
+.footer{
+    background: #000;
+    border-top: 5px solid gray;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 60px;
+    font-size: 25px;
+}
